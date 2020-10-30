@@ -18,3 +18,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  height: 70px;
+  background: black;
+  border: 1px solid red;
+}
+
+main {
+  border: 1px solid red;
+  min-height: 750px;
+}
+
+footer {
+  border: 1px solid red;
+  height: 110px;
+}
