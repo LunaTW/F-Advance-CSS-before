@@ -34,3 +34,10 @@ footer {
   border: 1px solid red;
   height: 110px;
 }
+
+.header-ul {
+  color: gainsboro;
+  display: flex;
+  justify-content: space-around;
+  line-height: 70px;
+}
