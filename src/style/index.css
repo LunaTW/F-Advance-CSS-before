@@ -22,12 +22,12 @@ ul {
 header {
   height: 70px;
   background: black;
-  border: 1px solid red;
 }
 
 main {
   border: 1px solid red;
   min-height: 750px;
+  display: flex;
 }
 
 footer {
@@ -36,8 +36,32 @@ footer {
 }
 
 .header-ul {
-  color: gainsboro;
+  color: RGB(192, 199, 208);
   display: flex;
   justify-content: space-around;
   line-height: 70px;
+  font-weight: bolder;
+}
+
+aside {
+  width: 300px;
+  font-style: italic;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in {
+  width: 100%;
+  height: 250px;
+  color: white;
+  background: RGB(245, 245, 245);
+  border: 1px solid red;
+}
+
+.main-content {
+  width: 1250px;
+  height: 700px;
+  border: 1px solid red;
+  margin: 30px 40px 30px 50px;
 }
