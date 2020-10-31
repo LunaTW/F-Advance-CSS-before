@@ -1,0 +1,123 @@
+body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  background: black;
+}
+
+main {
+  border: 1px solid red;
+  min-height: 750px;
+  display: flex;
+}
+
+.header-ul {
+  color: RGB(192, 199, 208);
+  display: flex;
+  justify-content: space-around;
+  line-height: 70px;
+  font-weight: bolder;
+}
+
+.aside-left {
+  width: 220px;
+  font-style: italic;
+  /*display: flex;*/
+  margin: 30px 0 0 40px;
+  /*color: white;*/
+}
+
+.aside-left-about {
+  /*height: 300px;*/
+  padding: 30px 20px 15px 20px;
+  background-color: RGB(248, 249, 250);
+}
+.aside-left-archives {
+  padding: 30px 20px 15px 20px;
+}
+
+.aside-right {
+  width: 300px;
+  height: 230px;
+  font-style: italic;
+  align-self: center;
+  background: RGB(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  width: 70%;
+  padding: 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+.password {
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.check-box {
+  margin-top: 10px;
+}
+
+.main-content {
+  width: 1000px;
+  height: 700px;
+  border: 1px solid red;
+  margin: 30px 40px 30px 50px;
+}
+
+.sign-in-button {
+  color: white;
+  background: RGB(51, 124, 246);
+  height: 40px;
+  width: 70%;
+  margin-top: 30px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-size: 18px;
+  border-style: none;
+}
+
+.sign-in-button:hover {
+  background-color: white;
+  color: RGB(51, 124, 246);
+}
+
+footer {
+  height: 90px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  background: RGB(245, 245, 245);
+}
+
+
+/*# sourceMappingURL=/style.f77e88bc.css.map */
