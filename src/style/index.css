@@ -43,24 +43,37 @@ footer {
   font-weight: bolder;
 }
 
-aside {
-  width: 300px;
+.aside-left {
+  width: 250px;
+  height: 500px; /* To delete */
   font-style: italic;
   border: 1px solid red;
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  margin: 30px 0 0 40px;
+  /*color: white;*/
 }
 
-.sign-in {
-  width: 100%;
+.aside-right {
+  width: 300px;
   height: 250px;
-  color: white;
-  background: RGB(245, 245, 245);
+  font-style: italic;
   border: 1px solid red;
+  /*display: flex;*/
+  align-self: center;
+  background: RGB(245, 245, 245);
+  /*color: white;*/
 }
+
+/*.sign-in {*/
+/*  width: 100%;*/
+/*  height: 250px;*/
+/*  color: white;*/
+/*  background: RGB(245, 245, 245);*/
+/*  border: 1px solid red;*/
+/*}*/
 
 .main-content {
-  width: 1250px;
+  width: 950px;
   height: 700px;
   border: 1px solid red;
   margin: 30px 40px 30px 50px;
